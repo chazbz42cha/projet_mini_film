@@ -1,0 +1,82 @@
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+li.nav-item {
+    margin-left: 0px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.container-fluid {
+    background: linear-gradient(#000000, #ad0808d2);
+}
+
+.form-control {
+    background-color: #ad0808d2;
+}
+
+.bg-cover {
+    display: flex;
+    flex-direction: column-reverse;
+    background-size: cover !important;
+    justify-content: center;
+    background-image: url("./assets/images/salle-cinema.jpeg");
+    height: 120vh;
+    margin: auto;
+}
+
+.card-img-top {
+    min-height: 35vh;
+    max-height: 35vh;
+    min-width: 20vh;
+    max-width: 20vh;
+}
+
+.container {
+    background-size: cover;
+    padding: 0!important;
+    height: 80vh;
+}
+
+.container h1 {
+    padding-top: 5vh;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    background-color: #000000;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 50vh;
+    width: 35vh;
+    background-color: #000000;
+}
+
+.container img {
+    height: 50vh;
+}
+
+.footer {
+    color: white;
+    height: 20vh;
+    background: linear-gradient(#000000, #ad0808d2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
