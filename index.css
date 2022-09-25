@@ -13,3 +13,11 @@
     justify-content: space-between;
     height: 50vh;
 }
+
+.body-white {
+    background-color: white;
+}
+
+.body-dark {
+    background-color: black;
+}
