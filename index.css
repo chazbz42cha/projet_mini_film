@@ -21,3 +21,25 @@
 .body-dark {
     background-color: black;
 }
+
+.searchtexte {
+    width: 55vh;
+    min-height: 5vh;
+    max-height: 5vh;
+}
+
+.searchclik {
+    width: 10vh;
+    min-height: 5vh;
+    max-height: 5vh;
+    border-color: crimson;
+    background-color: white;
+}
+
+.white-texte {
+    color: white;
+}
+
+.dark-texte {
+    color: black;
+}
