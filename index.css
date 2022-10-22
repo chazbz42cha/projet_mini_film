@@ -42,4 +42,18 @@
 
 .dark-texte {
     color: black;
+    border-color: white;
+}
+
+.darkmode {
+    background-color: rgb(0, 0, 0);
+    border-color: white;
+}
+
+h5 {
+    color: black;
+}
+
+h5.darkmode {
+    color: white;
 }

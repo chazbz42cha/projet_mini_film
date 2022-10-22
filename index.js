@@ -1,24 +1,12 @@
-let theme = document.querySelector(".body");
+const checkbox = document.querySelector("#flexSwitchCheckDefault");
+const navbar = document.querySelector("nav")
+const body = document.querySelector("body");
 
+const titres = document.querySelectorAll("h5");
 
-theme.addEventListener("click", (e) => {
-
-    e.target.classList.toggle("body-dark");
-    e.target.classList.toggle("body-white");
-    //circle.classList.toggle("body-dark");
-
-});
-
-
-
-
-let texte = document.querySelector(".dark-texte");
-
-
-texte.addEventListener("click", (e) => {
-
-    e.target.classList.toggle("white-texte");
-    e.target.classList.toggle("dark-texte");
-    //circle.classList.toggle("body-dark");
-
+checkbox.addEventListener('click', function() {
+    body.classList.toggle("darkmode");
+    titres.forEach(titre => {
+        titre.classList.toggle("darkmode");
+    })
 });
