@@ -57,3 +57,11 @@ h5 {
 h5.darkmode {
     color: white;
 }
+
+nav {
+    color: rgb(58, 53, 53);
+}
+
+nav.darkmode {
+    color: black;
+}
